@@ -1,9 +1,9 @@
 ---
 name: skill-master
-description: Česky provede tvorbou, úpravou a testováním skillů (Agent Skills) pro Claude Code, Claude.ai i Codex – od rozhovoru o záměru přes popis, který se spolehlivě spouští, SKILL.md, skripty a bezpečnost až po test, zabalení a sdílení na GitHubu. Použij, když uživatel chce vytvořit skill, udělat ze svého postupu skill, vylepšit nebo opravit existující skill, zjistit proč se skill nespouští, otestovat skill, zabalit skill do ZIPu nebo pluginu – i hovorově („udělej mi skill na…“, „naučit Clauda tenhle postup“, „create a skill“, „SKILL.md“). Nepoužívej na běžné psaní kódu, promptů do chatu ani nastavení CLAUDE.md, pokud nejde o skill.
+description: Česky provede tvorbou, úpravou a testováním skillů (Agent Skills, SKILL.md) pro Claude Code, Claude.ai i Codex – rozhovor o záměru, popis který se spolehlivě spouští, návod, skripty, bezpečnost, test, zabalení a sdílení na GitHubu. Použij pokaždé, když uživatel chce vytvořit nebo navrhnout skill (i jen „pomoz mi udělat skill na…“), udělat ze svého postupu skill, vylepšit či opravit skill, zjistit proč se skill nespouští, otestovat skill, zabalit ho do ZIPu nebo pluginu – česky i anglicky („create a skill“, „naučit Clauda tenhle postup“). Odpovídej podle něj i na jednoduché otázky o skillech, ať je výsledek ověřený. Nepoužívej na běžný kód, prompty do chatu ani CLAUDE.md, pokud nejde o skill.
 license: MIT
 metadata:
-  version: 1.0.0
+  version: 1.0.1
   author: VojtaCode
 ---
 

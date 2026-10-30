@@ -61,7 +61,9 @@ Stačí normálně napsat, co chceš:
 - „Zabal mi skill do ZIPu pro kamaráda.“
 - „Chci svoje skilly sdílet na GitHubu jako plugin.“
 
-Nebo ho zavolej přímo: `/skill-master`.
+Nebo ho zavolej přímo: `/skill-master` (při instalaci jako plugin `/skill-master:skill-master`).
+
+> **Máš hodně skillů?** Když jich máš desítky až stovky, Claude si podle popisu vybírá hůř. V našem testu se v prostředí s 300+ skilly Skill Master sám nespustil. Ruční zavolání přes `/` fungovalo vždycky. Nepoužívané skilly si vypni.
 
 Postup, kterým tě provede:
 
@@ -108,8 +110,9 @@ Skripty potřebují jen **Python 3.8+** (standardní knihovnu, nic dalšího nei
 
 Při vydání verze 1.0.0 (30. 10. 2026) jsme udělali tyto testy:
 
-- **Test spouštění:** 16 vět (8 má spustit, 8 záludných nemá) na modelu Sonnet v Claude Code 2.1 → **16/16 správně**. Věty jsou v [`testy/dotazy-skill-master.json`](testy/dotazy-skill-master.json).
+- **Test spouštění:** 16 vět (8 má spustit, 8 záludných nemá) na modelu Sonnet v Claude Code 2.1 → **16/16 správně** (v čisté instalaci, kde jsou jen tvoje skilly). Věty jsou v [`testy/dotazy-skill-master.json`](testy/dotazy-skill-master.json).
 - **Test práce:** Claude se Skill Masterem v čisté složce bez dalšího kontextu postavil skill „zápis z porady“, který prošel validátorem. Tento test odhalil, že validátor pouštěl nevyplněnou šablonu, a opravili jsme to.
+- **Plné prostředí s 300+ skilly:** sám se nespustil (0 ze 3 vět). Ruční `/skill-master:skill-master` fungoval a Claude postupoval přesně podle skillu.
 - `validuj.py --prisne` projde na Skill Masteru i obou ukázkách. Plugin prošel `claude plugin validate`.
 
 Na Macu a Linuxu skripty běží na standardním Pythonu, ale otestované jsou na Windows 11.

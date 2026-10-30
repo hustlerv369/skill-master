@@ -16,6 +16,7 @@ Popis je nejdůležitější řádek celého skillu. Claude na začátku každé
 
 - Skill si Claude otevře, když úkol odpovídá popisu **a** zároveň je natolik složitý, že mu skill pomůže. Jednoduchá věc („přečti tenhle soubor“) skill nespustí, i když popis sedí.
 - Claude má sklon skilly spíš **nepoužívat**. Proto má být popis konkrétní a trochu „dotěrný“: vyjmenuj situace, kdy se má skill použít, i když uživatel nevysloví přesné slovo.
+- Čím víc skillů máš nainstalovaných, tím hůř si Claude vybírá. U desítek až stovek skillů může i dobře popsaný skill zůstat stranou – důležité skilly pak volej ručně (`/nazev`) a nepoužívané vypni.
 - Skilly mezi sebou soupeří. Když máš dva podobné, popis musí říct, čím se liší a kdy který.
 
 ## 2. Recept na popis

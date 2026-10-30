@@ -1,7 +1,7 @@
 {
   "name": "skill-master",
   "description": "Česky provede tvorbou, úpravou, testováním a sdílením skillů (Agent Skills) pro Claude Code, Claude.ai i Codex.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "VojtaCode"
   },
