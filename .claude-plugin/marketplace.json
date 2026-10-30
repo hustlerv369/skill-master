@@ -1,0 +1,19 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "skill-master",
+  "description": "Skill Master od VojtaCode – česky provede tvorbou, testováním a sdílením skillů pro Claude.",
+  "owner": {
+    "name": "VojtaCode"
+  },
+  "plugins": [
+    {
+      "name": "skill-master",
+      "description": "Česky provede tvorbou, úpravou, testováním a sdílením skillů (Agent Skills) pro Claude Code, Claude.ai i Codex.",
+      "source": "./",
+      "author": {
+        "name": "VojtaCode"
+      },
+      "category": "development"
+    }
+  ]
+}

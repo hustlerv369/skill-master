@@ -1,0 +1,12 @@
+{
+  "name": "skill-master",
+  "description": "Česky provede tvorbou, úpravou, testováním a sdílením skillů (Agent Skills) pro Claude Code, Claude.ai i Codex.",
+  "version": "1.0.0",
+  "author": {
+    "name": "VojtaCode"
+  },
+  "homepage": "https://github.com/hustlerv369/skill-master",
+  "repository": "https://github.com/hustlerv369/skill-master",
+  "license": "MIT",
+  "keywords": ["skills", "agent-skills", "skill-creator", "cesky", "czech"]
+}

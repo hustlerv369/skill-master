@@ -1,0 +1,18 @@
+[
+ {"dotaz": "chci si udělat vlastní skill pro claude, který mi bude psát faktury z excelu, pomůžeš mi ho vytvořit?", "spustit": true},
+ {"dotaz": "tenhle postup co jsme teď dělali s převodem videí si chci uložit jako skill, ať ho claude umí příště sám", "spustit": true},
+ {"dotaz": "mám ve složce .claude/skills/prepis-schuzek svůj skill ale claude ho nikdy nepoužije když napíšu že chci zápis ze schůzky, proč?", "spustit": true},
+ {"dotaz": "help me create a skill that generates weekly reports from my notion database", "spustit": true},
+ {"dotaz": "jak zabalím svůj skill do zipu, abych ho mohl nahrát do claude na webu a poslat kamarádovi?", "spustit": true},
+ {"dotaz": "udelej mi skill na kontrolu ceskych textu at nezni jako AI", "spustit": true},
+ {"dotaz": "zkontroluj mi prosím můj SKILL.md, jestli má správně frontmatter a popis", "spustit": true},
+ {"dotaz": "chci svoje skilly sdílet s komunitou na githubu jako plugin, jak na to?", "spustit": true},
+ {"dotaz": "napiš mi python skript, který přejmenuje fotky ve složce podle data pořízení", "spustit": false},
+ {"dotaz": "jaké skills bych měl uvést v životopise jako junior frontend vývojář?", "spustit": false},
+ {"dotaz": "uprav mi CLAUDE.md v projektu, ať Claude vždycky píše commity česky", "spustit": false},
+ {"dotaz": "napiš mi prompt pro chatgpt, který mi z poznámek udělá článek na blog", "spustit": false},
+ {"dotaz": "nastav mi v claude code hook, který po každé úpravě souboru spustí prettier", "spustit": false},
+ {"dotaz": "vysvětli mi rozdíl mezi MCP serverem a pluginem v claude code", "spustit": false},
+ {"dotaz": "vytvoř mi REST API endpoint ve FastAPI na registraci uživatele", "spustit": false},
+ {"dotaz": "potřebuju se zlepšit ve skillech na pohovoru, dej mi tipy na soft skills", "spustit": false}
+]

@@ -1,0 +1,8 @@
+[
+  {"dotaz": "mám přepis videa v souboru prepis.txt, napiš mi k tomu popisek na youtube s kapitolama", "spustit": true},
+  {"dotaz": "hoď mi tam pod video description a timestampy, titulky jsou ve video.srt", "spustit": true},
+  {"dotaz": "write a youtube description with chapters from this transcript.txt", "spustit": true},
+  {"dotaz": "vymysli mi 5 titulků na video o úklidu počítače", "spustit": false},
+  {"dotaz": "napiš mi scénář na 10minutové video o tom, jak nasadit web zdarma", "spustit": false},
+  {"dotaz": "přepiš mi audio z video.mp4 do textu", "spustit": false}
+]
