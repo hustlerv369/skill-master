@@ -110,7 +110,7 @@ Skripty potřebují jen **Python 3.8+** (standardní knihovnu, nic dalšího nei
 
 Při vydání verze 1.0.0 (30. 10. 2026) jsme udělali tyto testy:
 
-- **Test spouštění:** 16 vět (8 má spustit, 8 záludných nemá) na modelu Sonnet v Claude Code 2.1, každá věta 2× → **32/32 běhů správně** (v čisté instalaci, kde jsou jen tvoje skilly). Věty jsou v [`testy/dotazy-skill-master.json`](testy/dotazy-skill-master.json).
+- **Test spouštění:** 16 vět (8 má spustit, 8 záludných nemá) na modelu Sonnet v Claude Code 2.1, každá věta 2× → **32/32 běhů správně** (v čisté dočasné složce bez uživatelského nastavení, pluginů a MCP). Věty jsou v [`testy/dotazy-skill-master.json`](testy/dotazy-skill-master.json).
 - **Test práce:** Claude se Skill Masterem v čisté složce bez dalšího kontextu postavil skill „zápis z porady“, který prošel validátorem. Tento test odhalil, že validátor pouštěl nevyplněnou šablonu, a opravili jsme to.
 - **Plné prostředí s 300+ skilly:** sám se nespustil (0 ze 3 vět). Ruční `/skill-master:skill-master` fungoval a Claude postupoval přesně podle skillu.
 - `validuj.py --prisne` projde na Skill Masteru i obou ukázkách. Plugin prošel `claude plugin validate`.
